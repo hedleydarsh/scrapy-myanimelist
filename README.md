@@ -46,8 +46,8 @@ pip install -r requirements.txt
 Clone este repositório e navegue até a pasta do projeto:
 
 ```bash
-git clone https://github.com/seu-usuario/web-scraping-myanimelist.git
-cd web-scraping-myanimelist
+[git clone https://github.com/seu-usuario/web-scraping-myanimelist.git](https://github.com/hedleydarsh/scrapy-myanimelist.git)
+cd scrapy-myanimelist
 ```
 
 ### 2. Raspagem de Dados
