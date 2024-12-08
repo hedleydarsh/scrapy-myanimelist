@@ -8,7 +8,7 @@ def scrape_myanimelist_ranking():
     all_data = []
 
     # loop para acessar as páginas de ranking, pega os 50 primeiros animes de cada página
-    for page in range(0, 50, 50): 
+    for page in range(0, 100, 50): 
         print(f"Scraping page {page // 50 + 1}...")
         url = base_url.format(page)
         response = requests.get(url)
