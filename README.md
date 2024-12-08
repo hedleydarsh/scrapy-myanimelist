@@ -62,7 +62,13 @@ O script irá:
 - Respeitar os limites de requisições com um intervalo de 2 segundos entre cada página.
 
 ### 3. Tratamento de Dados
-Após a raspagem, o script:
+Execute o script para processar dados do ranking de animes:
+
+```bash
+python process_data.py
+```
+
+Após o processamento, o script:
 - Preenche valores faltantes (se existirem).
 - Remove outliers baseados no IQR (Interquartile Range).
 - Corrige inconsistências nos dados.
