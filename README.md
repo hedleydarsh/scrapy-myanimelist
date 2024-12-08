@@ -46,8 +46,8 @@ pip install -r requirements.txt
 Clone este repositório e navegue até a pasta do projeto:
 
 ```bash
-git clone https://github.com/seu-usuario/web-scraping-myanimelist.git
-cd web-scraping-myanimelist
+[git clone https://github.com/seu-usuario/web-scraping-myanimelist.git](https://github.com/hedleydarsh/scrapy-myanimelist.git)
+cd scrapy-myanimelist
 ```
 
 ### 2. Raspagem de Dados
@@ -62,7 +62,13 @@ O script irá:
 - Respeitar os limites de requisições com um intervalo de 2 segundos entre cada página.
 
 ### 3. Tratamento de Dados
-Após a raspagem, o script:
+Execute o script para processar dados do ranking de animes:
+
+```bash
+python process_data.py
+```
+
+Após o processamento, o script:
 - Preenche valores faltantes (se existirem).
 - Remove outliers baseados no IQR (Interquartile Range).
 - Corrige inconsistências nos dados.
